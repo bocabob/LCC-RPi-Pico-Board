@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LocoShield")(type "KiCad")(uri "$(KIPRJMOD)/LocoShield.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "G:/My Drive/KiCad")(options "")(descr ""))
+)

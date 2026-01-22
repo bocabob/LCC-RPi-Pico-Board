@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LocoShield-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/LocoShield-eagle-import.lib")(options "")(descr ""))
+  (lib (name "LN-Stepper_v1_3-rescue")(type "KiCad")(uri "${KIPRJMOD}/LN-Stepper_v1_3-rescue.kicad_sym")(options "")(descr ""))
+)
