@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2026-04-09T09:22:45-04:00*%
+%TF.ProjectId,RibbonBreakout_v2_7,52696262-6f6e-4427-9265-616b6f75745f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2026-04-09 09:22:45*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X135000000Y-80000000D02*
+X165000000Y-80000000D01*
+X165000000Y-120000000D01*
+X135000000Y-120000000D01*
+X135000000Y-80000000D01*
+M02*

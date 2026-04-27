@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LocoShield-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/LocoShield-eagle-import.lib")(options "")(descr ""))
   (lib (name "LN-Stepper_v1_3-rescue")(type "KiCad")(uri "${KIPRJMOD}/LN-Stepper_v1_3-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "SLW-864587-2A-RA-N-D")(type "KiCad")(uri "C:/GdriveBG/KiCad/SLW-864587-2A-RA-N-D.kicad_sym")(options "")(descr ""))
 )
