@@ -28,7 +28,7 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Display101Adapter.kicad_prl",
+    "filename": "Display070AdapterRes.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

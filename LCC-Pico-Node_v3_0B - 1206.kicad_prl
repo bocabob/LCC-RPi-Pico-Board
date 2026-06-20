@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -28,7 +28,7 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -52,20 +52,23 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_82002227",
+    "visible_layers": "00000000_00000000_00000000_82002222",
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Display101Adapter.kicad_prl",
+    "filename": "LCC-Pico-Node_v3_0B - 1206.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -87,7 +90,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       162,
@@ -98,6 +103,8 @@
       91,
       91,
       71,
+      91,
+      91,
       91,
       91
     ],
