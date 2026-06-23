@@ -7337,6 +7337,12 @@
 		(uuid "99b2b9e1-1cd6-470b-b1ff-01fff0ab18b7")
 	)
 	(junction
+		(at 22.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd345b5-3e98-4d65-b3a4-633d16c2fe79")
+	)
+	(junction
 		(at 207.01 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7467,12 +7473,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4c5137-0a5b-4653-a327-e20d32b70d4a")
-	)
-	(junction
-		(at 22.86 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb7d511a-1e30-4b24-b9f6-9cd15e32eb30")
 	)
 	(no_connect
 		(at 200.66 76.2)
@@ -13262,7 +13262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -13359,6 +13359,15 @@
 		)
 		(property "Description" ""
 			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431534"
+			(at 26.67 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 64.77 0)
 			(effects
 				(font
@@ -13555,7 +13564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 212.09 105.41 0)
 			(effects
 				(font
@@ -13633,7 +13642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 35.56 85.09 0)
 			(effects
 				(font
@@ -13711,7 +13720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.67 96.52 0)
 			(effects
 				(font
@@ -13789,7 +13798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -13932,7 +13941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 187.96 158.75 0)
 			(effects
 				(font
@@ -14411,7 +14420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.77 85.09 0)
 			(effects
 				(font
@@ -14682,7 +14691,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP3212A-2R2M"
+		(property "Value" "3.3uH"
 			(at 83.82 184.658 0)
 			(effects
 				(font
@@ -14700,7 +14709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/2/J_E_TE243A_0008.pdf"
 			(at 82.55 190.5 0)
 			(effects
 				(font
@@ -14729,7 +14738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
+		(property "Height" "1"
 			(at 87.63 190.5 0)
 			(effects
 				(font
@@ -14739,7 +14748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRP3212A-3R3M"
+		(property "Mouser Part Number" "81-1277AS-H-3R3MP2"
 			(at 90.17 190.5 0)
 			(effects
 				(font
@@ -14749,7 +14758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-3R3M?qs=t7xnP681wgXp9Q%252BFP%252BQamQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 92.71 190.5 0)
 			(effects
 				(font
@@ -14759,7 +14768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 95.25 190.5 0)
 			(effects
 				(font
@@ -14769,7 +14778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRP3212A-3R3M"
+		(property "Manufacturer_Part_Number" "1277AS-H-3R3M=P2"
 			(at 97.79 190.5 0)
 			(effects
 				(font
@@ -14779,7 +14788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388372"
+		(property "LCSC" "C337905"
 			(at 80.518 184.15 0)
 			(effects
 				(font
@@ -15040,7 +15049,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -15426,7 +15435,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1985542"
+		(property "LCSC" "C1986264"
 			(at 194.31 119.888 0)
 			(effects
 				(font
@@ -16498,7 +16507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -16642,7 +16651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -16786,7 +16795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 127 0)
 			(effects
 				(font
@@ -17165,7 +17174,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.67 85.09 0)
 			(effects
 				(font
@@ -17377,7 +17386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.78 195.58 0)
 			(effects
 				(font
@@ -17521,7 +17530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 76.2 86.36 0)
 			(effects
 				(font
@@ -17965,7 +17974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -18707,7 +18716,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 86.36 0)
 			(effects
 				(font
@@ -18775,7 +18784,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP3212A-3R3M"
+		(property "Value" "4.7uH"
 			(at 155.448 186.182 0)
 			(effects
 				(font
@@ -18793,7 +18802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/2/J_E_TE243A_0009.pdf"
 			(at 152.4 191.77 0)
 			(effects
 				(font
@@ -18803,7 +18812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd"
+		(property "Description" "Ind,3.2x2.5x1mm,4.7uH+/-20%,3.1A,shd"
 			(at 153.67 175.26 0)
 			(effects
 				(font
@@ -18812,7 +18821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd"
+		(property "Description_1" "Ind,3.2x2.5x1mm,4.7uH+/-20%,3.1A,shd"
 			(at 149.86 191.77 0)
 			(effects
 				(font
@@ -18822,7 +18831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
+		(property "Height" "1"
 			(at 147.32 191.77 0)
 			(effects
 				(font
@@ -18832,7 +18841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRP3212A-3R3M"
+		(property "Mouser Part Number" "81-1276AS-H-4R7MP2 "
 			(at 144.78 191.77 0)
 			(effects
 				(font
@@ -18842,7 +18851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-3R3M?qs=t7xnP681wgXp9Q%252BFP%252BQamQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 142.24 191.77 0)
 			(effects
 				(font
@@ -18852,7 +18861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "Murata"
 			(at 139.7 191.77 0)
 			(effects
 				(font
@@ -18862,7 +18871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRP3212A-3R3M"
+		(property "Manufacturer_Part_Number" "1276AS-H-4R7M=P2 "
 			(at 137.16 191.77 0)
 			(effects
 				(font
@@ -18872,7 +18881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19779117"
+		(property "LCSC" "C1330201"
 			(at 150.876 186.182 0)
 			(effects
 				(font
@@ -18923,7 +18932,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.17 177.8 0)
 			(effects
 				(font
@@ -19156,7 +19165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 184.15 0)
 			(effects
 				(font
@@ -19234,7 +19243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 17.78 177.8 0)
 			(effects
 				(font
@@ -19261,7 +19270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2849334"
+		(property "LCSC" "C422816"
 			(at 15.748 177.8 0)
 			(effects
 				(font
@@ -19311,7 +19320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 187.96 161.29 0)
 			(effects
 				(font
@@ -19355,7 +19364,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MB85RC256VPNF-G-JNE1")
-		(at 22.86 35.56 0)
+		(at 48.26 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19371,7 +19380,7 @@
 				)
 			)
 		)
-		(property "Value" "MB85RCxxxV"
+		(property "Value" "256Kb"
 			(at 35.56 30.48 0)
 			(effects
 				(font
@@ -19380,7 +19389,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 44.45 33.02 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19389,8 +19398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 44.45 35.56 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g256xxx-5-e.pdf"
+			(at 26.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,8 +19408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FUJITSU - MB85RC256VPNF-G-JNE1 - FRAM, 256KBIT, I2C, SOP-8"
-			(at 22.86 35.56 0)
+		(property "Description" "EEPROM ICs, Memory, 256KBit, I&sup2;C BUS, High Endurance, Low Power Serial EEPROM"
+			(at 48.26 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19408,8 +19417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "FUJITSU - MB85RC256VPNF-G-JNE1 - FRAM, 256KBIT, I2C, SOP-8"
-			(at 44.45 38.1 0)
+		(property "Description_1" "EEPROM ICs, Memory, 256KBit, I&sup2;C BUS, High Endurance, Low Power Serial EEPROM "
+			(at 26.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19419,7 +19428,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 44.45 40.64 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,8 +19437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "249-MB85RC256VPNJNE1"
-			(at 44.45 43.18 0)
+		(property "Mouser Part Number" "755-BR24G256F-5E2 "
+			(at 26.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19438,8 +19447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Fujitsu-Semiconductor/MB85RC256VPNF-G-JNE1?qs=Wj%2FVkw3K%252BMA%252BFyeIFMuW0g%3D%3D"
-			(at 44.45 45.72 0)
+		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR24G256F-5E2?qs=PzGy0jfpSMt%2F62ePk7MQng%3D%3D"
+			(at 26.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19448,8 +19457,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Fujitsu Semiconductor"
-			(at 44.45 48.26 0)
+		(property "Manufacturer_Name" "ROHM Semiconductor "
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19458,8 +19467,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MB85RC256VPNF-G-JNE1"
-			(at 44.45 50.8 0)
+		(property "Manufacturer_Part_Number" "BR24G256F-5E2 "
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19468,8 +19477,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2062875"
-			(at 35.56 27.94 0)
+		(property "LCSC" "C90485"
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19502,7 +19511,7 @@
 			(uuid "55d14d0c-6924-4024-8321-717303b0ca99")
 		)
 		(instances
-			(project "LCC-Pico-Node_v3_0 - 1206"
+			(project "LCC-Pico-Node_v3_0C - 0805"
 				(path "/e3a6af99-7545-47ae-86bc-5ee23a6e5e7d"
 					(reference "IC5")
 					(unit 1)
@@ -19537,7 +19546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.41 184.15 0)
 			(effects
 				(font
@@ -19613,7 +19622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 172.72 0)
 			(effects
 				(font
@@ -19691,7 +19700,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -19769,7 +19778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 34.29 184.15 0)
 			(effects
 				(font
@@ -19979,7 +19988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.67 180.34 0)
 			(effects
 				(font
@@ -20321,7 +20330,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -20728,7 +20737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 194.31 0)
 			(effects
 				(font
@@ -21241,7 +21250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 31.75 0)
 			(effects
 				(font
@@ -21403,7 +21412,7 @@
 				)
 			)
 		)
-		(property "Value" "0ZCG0035AF2C"
+		(property "Value" "0ZCG0050AF2C"
 			(at 210.312 157.226 0)
 			(effects
 				(font
@@ -21460,7 +21469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "530-0ZCG0035AF2C"
+		(property "Mouser Part Number" "530-0ZCG0050AF2C"
 			(at 217.17 170.18 0)
 			(effects
 				(font
@@ -21490,7 +21499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0ZCG0035AF2C"
+		(property "Manufacturer_Part_Number" "0ZCG0050AF2C"
 			(at 217.17 177.8 0)
 			(effects
 				(font
@@ -21500,7 +21509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3762402"
+		(property "LCSC" "C3762102"
 			(at 212.09 154.94 0)
 			(effects
 				(font
@@ -21516,7 +21525,7 @@
 			(uuid "178c77a8-7037-425d-9bb7-96316170d1ab")
 		)
 		(instances
-			(project "LCC-Pico-Node_v3_0 - 1206"
+			(project "LCC-Pico-Node_v3_0C - 0805"
 				(path "/e3a6af99-7545-47ae-86bc-5ee23a6e5e7d"
 					(reference "F2")
 					(unit 1)
@@ -21978,7 +21987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -22056,7 +22065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 207.01 127 0)
 			(effects
 				(font
@@ -22228,7 +22237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.78 166.37 0)
 			(effects
 				(font
@@ -22372,7 +22381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -22586,7 +22595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.66 166.37 0)
 			(effects
 				(font
@@ -22743,7 +22752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 194.31 0)
 			(effects
 				(font
@@ -22811,7 +22820,7 @@
 				)
 			)
 		)
-		(property "Value" "0ZCG0035AF2C"
+		(property "Value" "0ZCG0050AF2C"
 			(at 210.312 147.32 0)
 			(effects
 				(font
@@ -22868,7 +22877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "530-0ZCG0035AF2C"
+		(property "Mouser Part Number" "530-0ZCG0050AF2C"
 			(at 217.17 151.13 0)
 			(effects
 				(font
@@ -22898,7 +22907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0ZCG0035AF2C"
+		(property "Manufacturer_Part_Number" "0ZCG0050AF2C"
 			(at 217.17 158.75 0)
 			(effects
 				(font
@@ -22908,7 +22917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3762402"
+		(property "LCSC" "C3762102"
 			(at 212.344 145.288 0)
 			(effects
 				(font
@@ -22924,7 +22933,7 @@
 			(uuid "28d7fad0-7455-4134-ae81-06245114fe94")
 		)
 		(instances
-			(project "LCC-Pico-Node_v3_0 - 1206"
+			(project "LCC-Pico-Node_v3_0C - 0805"
 				(path "/e3a6af99-7545-47ae-86bc-5ee23a6e5e7d"
 					(reference "F1")
 					(unit 1)
@@ -23093,7 +23102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.7 195.58 0)
 			(effects
 				(font
@@ -23237,7 +23246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.47 172.72 0)
 			(effects
 				(font
@@ -23385,7 +23394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 40.64 184.15 0)
 			(effects
 				(font
@@ -23463,7 +23472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 35.56 96.52 0)
 			(effects
 				(font
@@ -23606,7 +23615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.69 52.07 0)
 			(effects
 				(font
@@ -23881,7 +23890,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -23959,7 +23968,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 105.41 170.18 0)
 			(effects
 				(font

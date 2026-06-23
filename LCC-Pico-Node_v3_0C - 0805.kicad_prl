@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "Back Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
@@ -28,7 +28,7 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -52,7 +52,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000002_2200888c",
+    "visible_layers": "00000000_00000000_00000000_82002222",
     "zone_display_mode": 0
   },
   "git": {
@@ -62,7 +62,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "LCC-Pico-Node_v3_0B - 1206.kicad_prl",
+    "filename": "LCC-Pico-Node_v3_0C - 0805.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

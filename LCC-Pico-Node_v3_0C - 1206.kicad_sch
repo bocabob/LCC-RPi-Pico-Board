@@ -14682,7 +14682,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP3212A-2R2M"
+		(property "Value" "3.3uH"
 			(at 83.82 184.658 0)
 			(effects
 				(font
@@ -14700,7 +14700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/2/J_E_TE243A_0008.pdf"
 			(at 82.55 190.5 0)
 			(effects
 				(font
@@ -14729,7 +14729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
+		(property "Height" "1"
 			(at 87.63 190.5 0)
 			(effects
 				(font
@@ -14739,7 +14739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRP3212A-3R3M"
+		(property "Mouser Part Number" "81-1277AS-H-3R3MP2"
 			(at 90.17 190.5 0)
 			(effects
 				(font
@@ -14749,7 +14749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-3R3M?qs=t7xnP681wgXp9Q%252BFP%252BQamQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 92.71 190.5 0)
 			(effects
 				(font
@@ -14759,7 +14759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 95.25 190.5 0)
 			(effects
 				(font
@@ -14769,7 +14769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRP3212A-3R3M"
+		(property "Manufacturer_Part_Number" "1277AS-H-3R3M=P2"
 			(at 97.79 190.5 0)
 			(effects
 				(font
@@ -14779,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388372"
+		(property "LCSC" ""
 			(at 80.518 184.15 0)
 			(effects
 				(font
@@ -14795,7 +14795,7 @@
 			(uuid "a446b03e-a1a1-4bb3-80cb-518478b52a34")
 		)
 		(instances
-			(project "LCC-Pico-Node_v3_0 - 1206"
+			(project "LCC-Pico-Node_v3_0C - 1206"
 				(path "/e3a6af99-7545-47ae-86bc-5ee23a6e5e7d"
 					(reference "L1")
 					(unit 1)
@@ -18775,7 +18775,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP3212A-3R3M"
+		(property "Value" "4.7uH"
 			(at 155.448 186.182 0)
 			(effects
 				(font
@@ -18793,7 +18793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/2/J_E_TE243A_0009.pdf"
 			(at 152.4 191.77 0)
 			(effects
 				(font
@@ -18803,7 +18803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd"
+		(property "Description" "Ind,3.2x2.5x1mm,4.7uH+/-20%,3.1A,shd"
 			(at 153.67 175.26 0)
 			(effects
 				(font
@@ -18812,7 +18812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd"
+		(property "Description_1" "Ind,3.2x2.5x1mm,4.7uH+/-20%,3.1A,shd"
 			(at 149.86 191.77 0)
 			(effects
 				(font
@@ -18822,7 +18822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
+		(property "Height" "1"
 			(at 147.32 191.77 0)
 			(effects
 				(font
@@ -18832,7 +18832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-SRP3212A-3R3M"
+		(property "Mouser Part Number" "81-1276AS-H-4R7MP2 "
 			(at 144.78 191.77 0)
 			(effects
 				(font
@@ -18842,7 +18842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP3212A-3R3M?qs=t7xnP681wgXp9Q%252BFP%252BQamQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 142.24 191.77 0)
 			(effects
 				(font
@@ -18852,7 +18852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "Murata"
 			(at 139.7 191.77 0)
 			(effects
 				(font
@@ -18862,7 +18862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRP3212A-3R3M"
+		(property "Manufacturer_Part_Number" "1276AS-H-4R7M=P2 "
 			(at 137.16 191.77 0)
 			(effects
 				(font
@@ -18872,7 +18872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19779117"
+		(property "LCSC" ""
 			(at 150.876 186.182 0)
 			(effects
 				(font
@@ -18888,7 +18888,7 @@
 			(uuid "422b3e40-f323-4a57-be6d-c2b6c668ec5c")
 		)
 		(instances
-			(project "LCC-Pico-Node_v3_0 - 1206"
+			(project "LCC-Pico-Node_v3_0C - 1206"
 				(path "/e3a6af99-7545-47ae-86bc-5ee23a6e5e7d"
 					(reference "L2")
 					(unit 1)
