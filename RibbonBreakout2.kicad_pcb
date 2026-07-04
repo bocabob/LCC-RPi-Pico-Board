@@ -3127,7 +3127,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d844ff27-bc23-4bbb-b888-9ea62610ad83")
 	)
-	(gr_text "GND Data +5v GND"
+	(gr_text "GND +5v Data GND"
 		(at 142.4 113.9 0)
 		(layer "F.SilkS")
 		(uuid "3555db4f-9438-408a-9269-005a44257305")
@@ -3140,7 +3140,7 @@
 		)
 	)
 	(gr_text "GND Data +5v GND"
-		(at 142.2 78.8 0)
+		(at 154 78.35 180)
 		(layer "F.SilkS")
 		(uuid "d676e93e-2921-46c1-8f23-230133e8af68")
 		(effects
