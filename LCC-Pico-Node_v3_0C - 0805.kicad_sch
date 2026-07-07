@@ -7313,6 +7313,12 @@
 		(uuid "82a4c226-1218-42ef-aa00-26ef6790b3fe")
 	)
 	(junction
+		(at 22.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8403212c-3a4f-4589-8d08-f557a4e57479")
+	)
+	(junction
 		(at 66.04 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7335,12 +7341,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b2b9e1-1cd6-470b-b1ff-01fff0ab18b7")
-	)
-	(junction
-		(at 22.86 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fd345b5-3e98-4d65-b3a4-633d16c2fe79")
 	)
 	(junction
 		(at 207.01 124.46)
@@ -19364,16 +19364,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MB85RC256VPNF-G-JNE1")
-		(at 48.26 43.18 180)
+		(at 22.86 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "824faac8-82d3-40c2-bde9-9514ace61049")
 		(property "Reference" "IC5"
-			(at 35.56 27.94 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,7 +19380,7 @@
 			)
 		)
 		(property "Value" "256Kb"
-			(at 35.56 30.48 0)
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19389,7 +19388,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 26.67 45.72 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,7 +19398,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/memory/eeprom/br24g256xxx-5-e.pdf"
-			(at 26.67 43.18 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +19408,7 @@
 			)
 		)
 		(property "Description" "EEPROM ICs, Memory, 256KBit, I&sup2;C BUS, High Endurance, Low Power Serial EEPROM"
-			(at 48.26 43.18 0)
+			(at 22.86 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19418,7 +19417,7 @@
 			)
 		)
 		(property "Description_1" "EEPROM ICs, Memory, 256KBit, I&sup2;C BUS, High Endurance, Low Power Serial EEPROM "
-			(at 26.67 40.64 0)
+			(at 44.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,7 +19427,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 26.67 38.1 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19438,7 +19437,7 @@
 			)
 		)
 		(property "Mouser Part Number" "755-BR24G256F-5E2 "
-			(at 26.67 35.56 0)
+			(at 44.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19448,7 +19447,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR24G256F-5E2?qs=PzGy0jfpSMt%2F62ePk7MQng%3D%3D"
-			(at 26.67 33.02 0)
+			(at 44.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19458,7 +19457,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ROHM Semiconductor "
-			(at 26.67 30.48 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19468,7 +19467,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BR24G256F-5E2 "
-			(at 26.67 27.94 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19478,7 +19477,7 @@
 			)
 		)
 		(property "LCSC" "C90485"
-			(at 35.56 50.8 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
